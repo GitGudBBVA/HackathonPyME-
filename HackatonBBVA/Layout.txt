@@ -1,0 +1,15 @@
+Layout				
+Index      --> 	Índice de observación			
+Nombre1    --> 	Nombre de la PyME parte I			
+Nombre2    --> 	Nombre de la PyME parte II			
+Nombre3    --> 	Nombre de la PyME parte III			
+Direccion1 --> 	Calle donde se encuentra la PyME 			
+Direccion2 --> 	Número de domicilio I de la PyME			
+Direccion3 --> 	Número de domicilio II de la PyME			
+Colonia    --> 	Colonia donde se encuentra la PyME			
+MunicipioDel->  Municipio o Delegación donde se encuentra la PyME			
+CP         --> 	Código Postal del domicilio de la PyME			
+EntreCalle1--> 	Calle 1 entre la que se encuentra el domicilio de la PyME			
+EntreCalle2--> 	Calle 2 entre la que se encuentra el domicilio de la PyME			
+Estado     --> 	Estado donde se encuentra el domicilio de la PyME			
+NombComp   --> 	Nombre completo de la PyMe (concatenación de los campos Nombre1, Nombre2 y Nombre3)			
