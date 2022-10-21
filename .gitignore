@@ -1,5 +1,6 @@
 # ambientes de entorno
 environment
+.ipynb_checkpoints
 
 #notebooks de prueba
 prueba.ipynb
