@@ -31,7 +31,7 @@ user_ratings_total = []
 rating = []
 # hours = []
 
-for i in range(10):
+for i in range(df.shape[0]):
     name = df['NombComp'].iloc[i]
     name_company.append(name)
     datacrud = gmaps.places(query=name)
