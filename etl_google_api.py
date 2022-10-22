@@ -2,7 +2,7 @@ import googlemaps
 from datetime import datetime
 from Levenshtein import ratio
 
-gmaps = googlemaps.Client(key='AIzaSyAsqWWtWfL9TNcfKWeOr52Q_dvaLC6cwBg')
+gmaps = googlemaps.Client(key='')
 
 def normalize(s):
     replacements = (
@@ -19,6 +19,7 @@ def normalize(s):
         s = s.replace(a,b)
     return s
 
+df = pd.read_csv('HackatonBBVA/Final_Data_Hackathon_2022.csv')
 
 name_company = []
 address = []
