@@ -2,7 +2,8 @@ import googlemaps
 from datetime import datetime
 from Levenshtein import ratio
 
-gmaps = googlemaps.Client(key='')
+TOKEN_GOOGLE = config('TOKEN_GOOGLE')
+gmaps = googlemaps.Client(key=TOKEN_GOOGLE)
 
 def normalize(s):
     replacements = (

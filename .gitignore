@@ -5,3 +5,6 @@ environment
 #notebooks de prueba
 prueba.ipynb
 analisis.ipynb
+otro.ipynb
+
+.env
